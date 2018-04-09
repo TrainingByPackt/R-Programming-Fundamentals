@@ -17,8 +17,9 @@ while(TRUE){
 }
 
 #example 3
-while(i < 6){
+j=7
+while(j < 7){
   print(paste(j, "is this number"))
-  i = i + 1
+  j = j + 1
 }
 
