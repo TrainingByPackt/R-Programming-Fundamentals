@@ -1,14 +1,17 @@
-mtcars$cyl <- as.factor(mtcars$cyl)
-mtcars$gear <- as.factor(mtcars$gear)
-
+mtcars$cylfactor <- as.factor(mtcars$cyl)
+mtcars$gearfactor <- as.factor(mtcars$gear)
 #bar charts
-ggplot(mtcars, aes(cyl, fill = gear)) +
+ggplot(mtcars, aes(cyl, fill = gearfactor )) +
   geom_bar()
+
 
 ggplot(mtcars, aes(cyl, fill = as.factor(gear))) +
 geom_bar(position = "dodge")
-
-ggplot(mtcars, aes(cyl, fill = gear)) +
+ggplot(mtcars, aes(cyl, fill = gearfactor)) +
+geom_bar(position = "dodge")
+ggplot(mtcars, aes(cyl, fill = as.factor(gear))) +
+geom_bar(position = "fill")
+ggplot(mtcars, aes(cyl, fill = gearfactor)) +
   geom_bar(position = "fill")
 
 #facet wrapping
@@ -27,9 +30,9 @@ ggplot(mtcars, aes(cyl)) +
   facet_grid(gear~.)
 
 #boxplots
-ggplot(mtcars, aes(cyl, mpg)) + 
-  geom_boxplot() +
-  coord_flip()
+ggplot(mtcars, aes(cylfactor, mpg)) + 
+   geom_boxplot() +
+     coord_flip()
 
 #scatter plots
 
