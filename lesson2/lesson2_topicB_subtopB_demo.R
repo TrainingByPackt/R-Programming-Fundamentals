@@ -5,8 +5,8 @@ mtcars$gear <- as.factor(mtcars$gear)
 ggplot(mtcars, aes(cyl, fill = gear)) +
   geom_bar()
 
-ggplot(mtcars, aes(cyl, fill = gear)) +
-  geom_bar(position = "dodge")
+ggplot(mtcars, aes(cyl, fill = as.factor(gear))) +
+geom_bar(position = "dodge")
 
 ggplot(mtcars, aes(cyl, fill = gear)) +
   geom_bar(position = "fill")
