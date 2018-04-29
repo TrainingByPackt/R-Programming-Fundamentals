@@ -1,3 +1,5 @@
+install.packages("datasets")
+library(datasets)
 data("iris")
 
 #split iris
@@ -11,6 +13,7 @@ iris_virginica <- iris_species[[3]]
 iris_back <- unsplit(iris_species, iris$Species)
 
 #using dplyr
+install.packages("dplyr")
 library(dplyr)
 
 iris_setosa <- iris %>% filter(Species == "setosa")
@@ -20,7 +23,7 @@ iris_virginica <- iris %>% filter(Species == "virginica")
 #string splitting
 names <- c("Danelle Lewison", "Reyna Wieczorek", "Jaques Sola", "Marcus Huling", "Elvis Driver", "Chandra Picone", "Alejandro Caffey", "Shawnna Lomato", "Masako Hice", "Wally Ota", "Phillip Batten", "Denae Rizzuto", "Joseph Merlos", "Maurice Debelak", "Carina Gunning", "Tama Moody")
 
-
+install.packages("stringr")
 library(stringr)
 
 names_split <- str_split(names, pattern = " ")
@@ -34,6 +37,9 @@ names_split_a[[1]]
 names_split_a[[1]][2]
 
 #combining data
+install.packages("ggplot2")
+library(ggplot2)
+
 
 data("midwest")
 str(midwest)
