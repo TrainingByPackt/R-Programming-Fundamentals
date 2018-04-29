@@ -1,4 +1,6 @@
 #split/unsplit
+install.packages("datasets")
+library(datasets)
 data("mtcars")
 
 mtcars_split <- split(mtcars, mtcars$cyl)
