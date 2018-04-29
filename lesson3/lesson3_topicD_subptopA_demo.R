@@ -1,5 +1,5 @@
-install.packages("nycflights")
 
+install.packages("nycflights13")
 library(nycflights13)
 
 data("flights")
