@@ -1,33 +1,18 @@
-#import .txt
-students_text <- read.table("students.txt")
+#import .txt file
+students_text <- read.table("https://raw.githubusercontent.com/TrainingByPackt/Beginning-Data-Science-with-R/master/lesson1/students.txt")
+
+#open up students_text and take a look to see how it imported
 
 ?read.table
 
-students_text <- read.table("students.txt", header = TRUE)
+students_text <- read.table("https://raw.githubusercontent.com/TrainingByPackt/Beginning-Data-Science-with-R/master/lesson1/students.txt", 
+                            header = TRUE)
 
-#import csv, 3 ways
-students_csv1 <- read.table("students.csv", header = TRUE, sep = ",")
-
-students_csv2 <- read.csv("students.csv")
-
-library(readr)
-students_csv3 <- read_csv("students.csv")
-
-#import xlsx
-library(xlsx)
-students_xlsx <- read.xlsx("students.xlsx")
+#open students_texxt again to be sure!
 
 #create new variable
-students <- students_text
-
-students$Height_cm <-( students$Height_inches * 2.54)
-students$Weight_kg <- (students$Weight_lbs/0.453592)
+students_text$Height_cm <-( students$Height_inches * 2.54)
+students_text$Weight_kg <- (students$Weight_lbs / 0.453592)
 
 #.txt file
-write.table(students, "students_out.txt")
-
-#.csv file
-write.csv(students, "students_out.csv")
-
-#.xlsx file
-write.xlsc(students, "students_out.xlsx")
+write.table(students_text, "students_text_out.txt")
