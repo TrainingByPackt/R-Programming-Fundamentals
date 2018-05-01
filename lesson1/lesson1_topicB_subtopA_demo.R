@@ -25,3 +25,6 @@ date <- "18-03-29"
 Date <- as.Date(date)
 class(Date)
 typeof(Date)
+
+#this won't work:
+date2 <- as.Date("03-29-18")
