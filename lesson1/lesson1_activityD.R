@@ -11,5 +11,5 @@ mtcars$hpcyl <- mtcars$hp/mtcars$cyl
 #write csv
 write.csv(mtcars, "mtcars_out.csv")
 
-#read back in
-mtcars_in <- read.csv("mtcars_out.csv")
+?read.csv
+read.csv("mtcars_out.csv")
