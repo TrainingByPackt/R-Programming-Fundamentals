@@ -5,11 +5,11 @@ data("ChickWeight")
 # if
 var <- 100
 
-if((var/5) > 25){
+if((var/5) >= 25){
   print("Big number")
 }
 
-if((var/5) > 25){
+if((var/5) >= 25){
   print("Big number")
 } else{
   print("Not as big of a number")
