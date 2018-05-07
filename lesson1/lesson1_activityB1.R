@@ -1,22 +1,22 @@
 #don't run these until you're stuck!
 
-class("Hello")
-typeof("Hello")
+class("John Smith")
+typeof("John Smith")
 
-class(1)
-typeof(1)
+class(16)
+typeof(16)
 
-class(1L)
-typeof(1L)
+class(10L)
+typeof(10L)
 
-class(1.5)
-typeof(1.5)
+class(3.92)
+typeof(3.92)
 
 class(-10)
 typeof(-10)
 
-class("03-29-18")
-typeof("03-29-18")
+class("03-28-02")
+typeof("03-28-02")
 
-class(as.Date("18-03-29"))
-typeof(as.Date("18-03-29"))
+class(as.Date("02-03-28"))
+typeof(as.Date("02-03-28"))

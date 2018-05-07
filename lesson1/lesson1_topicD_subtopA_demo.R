@@ -11,7 +11,7 @@ students_text <- read.table("https://raw.githubusercontent.com/TrainingByPackt/B
 #open students_texxt again to be sure!
 
 #create new variable
-students_text$Height_cm <-( students$Height_inches * 2.54)
+students_text$Height_cm <- (students$Height_inches * 2.54)
 students_text$Weight_kg <- (students$Weight_lbs / 0.453592)
 
 #.txt file
