@@ -29,7 +29,6 @@ titanic_train$Age_median <- ifelse(is.na(titanic_train$Age),
                                  titanic_train$Age)
 median(titanic_train$Age_median)
 
-#median imputation by Sex
 
 #run this code to see how drastically different age is by Embarked:
 library(dplyr)

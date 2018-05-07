@@ -16,6 +16,7 @@ students_combined <- merge(students, students2, by = "ID")
 students_combined <- merge(students, students2, by = "ID", all.y = TRUE)
 
 #join
+install.packages("dplyr")
 library(dplyr)
 students_joined <- right_join(students, students2, by = "ID")
 
