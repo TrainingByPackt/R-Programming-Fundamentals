@@ -2,16 +2,16 @@
 getwd()
 
 #subtract function
-subtract <- function(x, y){
-  x - y
+area_rectangle <- function(length, width){
+  length * width
 }
 
 #does it work?
-subtract(1, 2)
+area_rectangle(5, 10)
 
-subtract(100, 5)
+area_rectangle(80, 70)
 
-subtract(56, 234)
+area_rectangle(48209302930, 4)
 
 #save an image of the global environment
 save.image("introtoDSwR.RData")

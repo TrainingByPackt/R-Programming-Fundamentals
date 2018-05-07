@@ -1,14 +1,15 @@
 #custom function
-add <- function(x, y){
-  x + y
+area_triangle <- function(base, height){
+  0.5 * base * height
 }
 
+
 #how it's used
-add(3, 4)
+area_triangle(5, 10)
 
-add(100, 12)
+area_triangle(6, 12)
 
-add(838383838833838301920, 1)
+area_triangle(148488383, 8)
 
 #check working directory
 getwd()
