@@ -27,3 +27,11 @@ for(i in seq_along(iris)){
     print(paste("Variable", i, "isn't numeric"))
   }
 }
+
+#nrow
+for(i in 1:nrow(iris)){
+  print(iris[i, "Sepal.Width"])
+}
+
+nrow(iris)
+seq_along(iris)

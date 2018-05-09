@@ -5,7 +5,7 @@ while(test_expression){
 }
 
 #example 1
-i <- 0 
+#i <- 0 
 while(i <= 5){
   print(paste("loop", i))
   i = i + 1
