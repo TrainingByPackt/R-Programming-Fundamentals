@@ -27,7 +27,7 @@ install.packages("xlsx")
 library(xlsx)
 
 #import xlsx
-students_xlsx <- read.xlsx("https://github.com/TrainingByPackt/Beginning-Data-Science-with-R/blob/master/lesson1/students.xlsx")
+students_xlsx <- read.xlsx("students.xlsx")
 
 #create id
 students_xlsx$id <- seq(1:nrow(students_xlsx))
