@@ -26,7 +26,7 @@ str(students_csv3)
 install.packages("xlsx")
 library(xlsx)
 
-#import xlsx
+#import excel
 students_xlsx <- read.xlsx("students.xlsx")
 
 #create id
