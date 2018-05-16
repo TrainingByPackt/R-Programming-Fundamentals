@@ -27,6 +27,7 @@ install.packages("xlsx")
 library(xlsx)
 
 #import xlsx
+# Please check the  following line of code
 students_xlsx <- read.xlsx("https://github.com/TrainingByPackt/Beginning-Data-Science-with-R/blob/master/lesson1/students.xlsx")
 
 #create id
