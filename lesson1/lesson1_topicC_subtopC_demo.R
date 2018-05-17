@@ -5,7 +5,15 @@ while(test_expression){
 }
 
 #example 1
+<<<<<<< HEAD
+<<<<<<< HEAD
+#i <- 0 
+=======
+i <- 0
+>>>>>>> 9779633908292b174cc9f07c5fcce8e17478c439
+=======
 i <- 0 
+>>>>>>> c70090ce3a36244e457fcbbdc2bbe06784f61429
 while(i <= 5){
   print(paste("loop", i))
   i = i + 1
@@ -18,8 +26,9 @@ while(TRUE){
 }
 
 #example 3
-while(i < 6){
+j=1
+while(j < 7){
   print(paste(j, "is this number"))
-  i = i + 1
+  j = j + 1
 }
 

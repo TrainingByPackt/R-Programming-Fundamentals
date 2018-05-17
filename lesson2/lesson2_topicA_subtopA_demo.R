@@ -17,15 +17,17 @@ plot(mtcars_lm)
 
 #title and axis labels
 plot(mtcars$wt, mtcars$mpg, 
-     main = "mpg vs. wt, mtcars data",
-     xlab = "weight",
-     ylab = "mpg")
+     main = "MPG vs. Weight",
+     sub = "mtcars dataset",
+     xlab = "Weight",
+     ylab = "MPG")
 
 #color
 plot(mtcars$wt, mtcars$mpg, 
-     main = "mpg vs. wt, mtcars data",
-     xlab = "weight",
-     ylab = "mpg",
+     main = "MPG vs. Weight",
+     sub = "mtcars dataset",
+     xlab = "Weight",
+     ylab = "MPG",
      col = "red")
 
 #more than 1 plot
