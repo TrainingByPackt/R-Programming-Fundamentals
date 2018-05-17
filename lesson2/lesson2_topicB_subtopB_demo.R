@@ -1,33 +1,36 @@
+#create factor versions
 mtcars$cylfactor <- as.factor(mtcars$cyl)
 mtcars$gearfactor <- as.factor(mtcars$gear)
+
 #bar charts
-ggplot(mtcars, aes(cyl, fill = gearfactor )) +
+ggplot(mtcars, aes(cyl, fill = gearfactor)) +
   geom_bar()
 
-
+#these do the same thing:
 ggplot(mtcars, aes(cyl, fill = as.factor(gear))) +
 geom_bar(position = "dodge")
 ggplot(mtcars, aes(cyl, fill = gearfactor)) +
 geom_bar(position = "dodge")
+#so do these
 ggplot(mtcars, aes(cyl, fill = as.factor(gear))) +
 geom_bar(position = "fill")
 ggplot(mtcars, aes(cyl, fill = gearfactor)) +
   geom_bar(position = "fill")
 
 #facet wrapping
-ggplot(mtcars, aes(cyl)) +
+ggplot(mtcars, aes(cylfactor)) +
   geom_bar() +
-  facet_wrap(~gear)
+  facet_wrap(~gearfactor)
 
 #facet gridding
 #columns
-ggplot(mtcars, aes(cyl)) +
+ggplot(mtcars, aes(cylfactor)) +
   geom_bar() +
-  facet_grid(~gear)
+  facet_grid(~gearfactor)
 #rows
-ggplot(mtcars, aes(cyl)) +
+ggplot(mtcars, aes(cylfactor)) +
   geom_bar() +
-  facet_grid(gear~.)
+  facet_grid(gearfactor~.)
 
 #boxplots
 ggplot(mtcars, aes(cylfactor, mpg)) + 
@@ -37,13 +40,13 @@ ggplot(mtcars, aes(cylfactor, mpg)) +
 #scatter plots
 
 #fill
-ggplot(mtcars, aes(wt, mpg, fill = cyl)) +
+ggplot(mtcars, aes(wt, mpg, fill = cylfactor)) +
   geom_point()
 
-ggplot(mtcars, aes(wt, mpg, col = cyl)) +
+ggplot(mtcars, aes(wt, mpg, col = cylfactor)) +
   geom_point()
 
-ggplot(mtcars, aes(wt, mpg, colour = cyl)) +
+ggplot(mtcars, aes(wt, mpg, colour = cylfactor)) +
   geom_point()
 
 #shape
