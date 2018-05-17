@@ -1,7 +1,7 @@
 #check working directory
 getwd()
 
-#subtract function
+#area function
 area_rectangle <- function(length, width){
   length * width
 }

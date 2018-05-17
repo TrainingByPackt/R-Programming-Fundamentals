@@ -12,4 +12,4 @@ mtcars$hpcyl <- mtcars$hp/mtcars$cyl
 write.csv(mtcars, "mtcars_out.csv")
 
 ?read.csv
-read.csv("mtcars_out.csv")
+mtcars_in <-read.csv("mtcars_out.csv")
