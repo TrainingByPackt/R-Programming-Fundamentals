@@ -1,6 +1,7 @@
 #load the datasets library
 library(datasets)
-
+install.packages("ggplot2")
+library(ggplot2)
 #load the data
 data("iris")
 data("mpg")
