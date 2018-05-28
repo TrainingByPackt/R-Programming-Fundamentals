@@ -23,8 +23,8 @@ str(students_csv3)
 
 #part 2:
 #install & load xlsx
-install.packages("xlsx")
-library(xlsx)
+ install.packages("openxlsx")
+library(openxlsx)
 
 #import excel
 students_xlsx <- read.xlsx("students.xlsx")
