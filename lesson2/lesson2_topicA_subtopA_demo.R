@@ -1,3 +1,11 @@
+#how to get help with plots
+  #all 3 of these do the same thing!
+?plot
+
+help("plot")
+help(plot)
+
+#plotting demo
 library(datasets)
 
 data("mtcars")
