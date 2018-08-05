@@ -38,3 +38,5 @@ gas_price <- gas_price[-1]
 midwest$gas_price <- factor(gas_price, 
                             levels = c("low", "medium", "high"), 
                             ordered = TRUE)
+
+table(midwest$gas_price)
