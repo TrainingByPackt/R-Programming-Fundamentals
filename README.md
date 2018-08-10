@@ -1,2 +1,2 @@
 # R Programming Fundamentals
-Code Repository for Beginning Data Science with R, by Packt
+Code Repository for R Programming Fundamentals, by Packt
