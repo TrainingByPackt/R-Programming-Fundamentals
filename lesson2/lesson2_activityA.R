@@ -4,7 +4,7 @@ install.packages("ggplot2")
 library(ggplot2)
 #load the data
 data("iris")
-data("mpg")
+data("mtcars")
 
 #plot 1
 plot(iris$Petal.Width)
