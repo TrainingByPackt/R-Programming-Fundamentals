@@ -1,3 +1,4 @@
+#tested and working
 #read in students data
 library(readr)
 students <- read_csv("https://github.com/TrainingByPackt/Beginning-Data-Science-with-R/blob/master/lesson1/students.csv")
