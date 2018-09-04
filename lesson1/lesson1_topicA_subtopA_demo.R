@@ -1,3 +1,4 @@
+#tested and working
 #custom function
 area_triangle <- function(base, height){
   0.5 * base * height
