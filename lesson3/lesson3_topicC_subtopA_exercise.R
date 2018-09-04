@@ -1,3 +1,4 @@
+#tested and working
 ## SPLITTING DATA
 data("iris")
 
