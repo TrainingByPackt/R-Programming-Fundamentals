@@ -1,3 +1,4 @@
+#tested and working
 #create factor variables
 library(datasets)
 
