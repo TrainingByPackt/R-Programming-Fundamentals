@@ -1,3 +1,4 @@
+#tested and working
 #don't run these until you're stuck!
 
 class("John Smith")
