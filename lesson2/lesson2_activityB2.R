@@ -1,3 +1,4 @@
+#tested and working
 #bar chart
 
 ggplot(mpg, aes(class)) +
