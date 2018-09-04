@@ -1,3 +1,4 @@
+#tested and working
 #how to get help with plots
   #all 3 of these do the same thing!
 ?plot
