@@ -1,3 +1,4 @@
+#tested and working
 #plot 1
 ggplot(iris, aes(Petal.Width)) +
   geom_histogram(binwidth = 0.5)
