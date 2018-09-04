@@ -1,3 +1,4 @@
+#tested and working
 #check working directory
 getwd()
 
