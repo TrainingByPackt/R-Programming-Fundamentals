@@ -1,3 +1,4 @@
+#tested and working
 #default theme
 ggplot(mtcars, aes(wt, mpg, col = cyl)) +
   geom_point() 
