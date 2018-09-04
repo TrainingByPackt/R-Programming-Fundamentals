@@ -1,3 +1,4 @@
+#tested and working
 #char to numeric, integer
 var <- "5"
 
