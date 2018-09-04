@@ -1,3 +1,4 @@
+#tested and working
 #vectors
 vec1 <- c(1:10)
 vec2 <- c(LETTERS)
