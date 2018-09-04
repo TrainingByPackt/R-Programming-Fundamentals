@@ -1,3 +1,4 @@
+#tested and working
 #create factor versions
 mtcars$cylfactor <- as.factor(mtcars$cyl)
 mtcars$gearfactor <- as.factor(mtcars$gear)
