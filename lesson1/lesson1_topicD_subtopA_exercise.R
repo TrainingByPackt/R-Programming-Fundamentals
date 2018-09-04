@@ -1,3 +1,4 @@
+#tested and working
 #part 1:
 #import csv, 3 ways
 
