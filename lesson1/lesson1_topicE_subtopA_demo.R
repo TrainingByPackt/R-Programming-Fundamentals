@@ -1,3 +1,4 @@
+#tested and working
 #help and ?
 help("glm")
 ?glm
