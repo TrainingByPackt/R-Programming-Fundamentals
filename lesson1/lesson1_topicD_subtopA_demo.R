@@ -1,3 +1,4 @@
+#tested and working
 #import .txt file
 students_text <- read.table("https://raw.githubusercontent.com/TrainingByPackt/Beginning-Data-Science-with-R/master/lesson1/students.txt")
 
