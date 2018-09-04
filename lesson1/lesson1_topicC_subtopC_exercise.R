@@ -1,3 +1,4 @@
+#tested and working
 #loop 1
 vec <- seq(1:10)
 
